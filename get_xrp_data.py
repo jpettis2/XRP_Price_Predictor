@@ -104,7 +104,7 @@ class XRPMarketTracker():
 
         # CSV Save Notification
         print("\n== Exporting to csv file ==\n")
-        print(f"Data saved to {self.filename}...\nWaiting 5 seconds to receive & append additional data...\n")
+        print(f"Data saved to {self.filename}...\n\nWaiting 5 seconds to receive & append additional data...\n")
 
     # Read .csv file
     def read_data(self):
